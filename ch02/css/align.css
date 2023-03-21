@@ -1,0 +1,15 @@
+h1{
+    color: #0000ff;
+    text-align: center
+}
+/* p{text-align: left;}
+p{text-align: center;}
+p{text-align: right;} */
+/* 양쪽 정렬 */
+p{text-align: justify;
+  line-height:2;
+}
+
+a{text-decoration: none;}
+/* 마우스를 올렸을때 동작함 */
+a:hover{text-decoration: underline;}
