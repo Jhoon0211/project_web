@@ -3,11 +3,14 @@ ul{
     list-style: none;
     text-align: right;
     margin-right: 50px;
-    padding-top: 8px;
+    /* padding-top: 8px; */
 }
 ul li{
     display: inline-block;
-    margin: 20px;
+    /* margin: 20px; */
+    line-height: 100px;
+    /* 수직 정렬 - height과 같으면 가운데정렬 */
+    margin: 0 20px;
     
 }
 a{
@@ -19,7 +22,7 @@ a{
     margin: 0 auto;
 }
 nav{
-    width: 90%; height: 80px;
+    width: 90%; height: 100px;
     background-color: #006699;
 }
 a:hover{color: yellowgreen;}

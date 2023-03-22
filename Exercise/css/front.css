@@ -1,0 +1,11 @@
+.wrap{
+    width: 520px;
+    margin: 10px auto;
+}
+ul li{
+    list-style-type: none;
+    margin: 10px;
+}
+p{
+    font-size: 15px;
+}
