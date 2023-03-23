@@ -12,6 +12,7 @@ ul{
 }
 ul li{
     /* 속성이 포함되면 inline-block 사용 */
+    /* float: left; */
     display: inline-block;
     margin: 20px;
     border-top: 2px solid #333;
@@ -27,4 +28,5 @@ li:hover{
 }
 section{
     padding-left: 20px;
+    /* clear: both; */
 }
