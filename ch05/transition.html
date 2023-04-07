@@ -9,8 +9,8 @@
         .tr{
             width:100px;
             height: 100px;
-            background: #00f;
-            border: 1px solid #000;
+            background: rgb(175, 175, 255);
+            border: 2px solid #eee;
             position: absolute;
             top: 100px;
             left: 100px;
@@ -20,12 +20,19 @@
             /* 한 번에 속성 설정 - 콤마로 연결 */
             transition: width, height, background-color, 2s, 1s;
             /* 모든 속성에 대해 시간을 똑같이 설정 */
-            /* transition: all 0.5s; */
+            transition: all 1s ease-in;
+            /* 
+                ease-in : 느리게 시작
+                ease-out :  느리게 끝남
+                ease-in-out :  느리게 시작하고 느리게 끝남
+            */
+            
         }
         .tr:hover{
             width: 200px;
             height: 120px;
-            background: #0f0;
+            background: rgb(201, 250, 201);
+            border-radius: 10px;
         }
     </style>
 </head>

@@ -86,6 +86,7 @@ td:nth-child(3),
 td:nth-child(4){text-align: center;}
 #tbl_board td:first-child{width:50px;}
 #board{font-family: Gowun Batang;}
+.btn button{cursor: pointer;}
 
 
 /* Q/A 버튼 */
@@ -93,9 +94,30 @@ td:nth-child(4){text-align: center;}
 .btn button{padding: 10px 15px; margin-bottom: 50px;}
 
 /* 자기소개 */
-#board{height: 1000px;}
-#prof{width: 1000px; height: 300px; margin: 0 auto;}
-#me img{float: left; margin-right: 20px;
-    border-radius: 10px; width: 160px; height: 205px}
-#me, #car{margin: 30, 20px;}
-#me h1,h3{padding: 10px;}
+#board{width: 1000px; height: 1000px;}
+#board .prof h2{text-align: left;}
+#prof .detail{width: 1000px; height: 250px; margin: 0 auto;}
+#carrer .detail{width: 1000px; height: 250px; margin: 0 auto;
+margin-right: 0px;}
+#board section{border: 1px dotted #ccc; border-radius: 20px;
+padding: 20px; margin: 30px 0px 0px 0px; }
+#board section p{font-size: 20px;}
+#prof{text-align: left;}
+#prof img{float: left; margin-right: 20px;
+    border-radius: 10px; width: 140px; height: 185px}
+
+
+/* register */
+#register section h2{margin: 30px 10px; text-align: center;}
+#board_write{margin-bottom: 30px;}
+#board_write form{
+    border: 1.5px solid green;
+    border-collapse: collapse; width: 700px; margin: 0 auto;
+    padding: 10px;}
+    
+#tbl_write{margin-left:10px;}
+#tbl_write input[type="text"]{width: 650px; height: 25px;}
+#tbl_write textarea{width: 650px;}
+#tbl_write input[type="submit"],input[type="reset"]
+{width: 100px; height: 50px;}
+#tbl_write tr:last-child{text-align: center;}
