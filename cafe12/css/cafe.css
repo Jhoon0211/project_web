@@ -41,3 +41,26 @@ footer{height: 80px; border-top: 2px solid #222;}
     #map{clear: both;}
     #map .photo{display: block; float: left; margin-right: 50px;}
 }
+
+/* 태블릿 기준 - 780px 이상 */
+@media screen and (min-width: 780px) {
+    header{height: 350px;}
+    #main-pic img{height: 290px;}
+    section{height: 400px;}
+    #intro, #choice{float: left; width: 50%;}
+    #map{clear: both;}
+    #map .photo{display: block; float: left; margin-right: 50px;}
+}
+
+/* pc 기준 - 1200px 이상 */
+@media screen and (min-width: 1200px) {
+    #container{width: 1200px; margin: 0 auto;}
+    header{height: 380px;}
+    #main-pic img{height: 320px;}
+    section{height: 350px;}
+    #intro, #choice, #map{width: 100%; padding: 10px 5%;}
+    section .content .photo{display: block;}
+    section p{line-height: 2.5;}
+    #intro .photo, #map .photo{float:left; margin-right: 20px;}
+    #choice .photo{float: right; margin-right: 50px;}
+}
