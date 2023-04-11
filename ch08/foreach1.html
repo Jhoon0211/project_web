@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>forEach() 함수</title>
+    </head>
+    <body>
+        <h2>forEach()는 배열에서 각 요소에 대한 함수를 호출한다.</h2>
+        <p id="demo"></p>
+        <script>
+            let fruits = ["apple", "orange", "kiwi"]
+            let text = ""; //fruits 각 요소를 출력한 변수
+
+             //매개변수가 함수인 것 - map, foreach
+             // myFunction '()' 괄호 빼야함
+            fruits.forEach(myFunction);
+            
+            function myFunction(item, index){
+                // 0 : apple, 1 : orange, 2 : kiwi
+                // text = text + item;
+                // index = 순서
+                text += index + " : " + item + "<br>" // 각 요소 연결(더하기)
+                console.log(text);
+            }
+
+            document.getElementById("demo").innerHTML = text;
+
+            /* for(let i=0; i<fruits.length; i++){
+                console.log(fruits[i]);
+            } */
+
+        </script>
+    </body>
+</html>
